@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F8187074C80C53BA771E2B8 /* Pods_HeadlineGuesser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A793C44584883E0FA89811 /* Pods_HeadlineGuesser.framework */; };
+		4375251B24F49A9D00BEEDBB /* QuestionResponseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375251A24F49A9D00BEEDBB /* QuestionResponseVC.swift */; };
 		4385CE0724F48D2D00716A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CE0624F48D2D00716A63 /* AppDelegate.swift */; };
 		4385CE0924F48D2D00716A63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CE0824F48D2D00716A63 /* SceneDelegate.swift */; };
-		4385CE0B24F48D2D00716A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CE0A24F48D2D00716A63 /* ViewController.swift */; };
+		4385CE0B24F48D2D00716A63 /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CE0A24F48D2D00716A63 /* QuestionVC.swift */; };
 		4385CE0E24F48D2D00716A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4385CE0C24F48D2D00716A63 /* Main.storyboard */; };
 		4385CE1024F48D3000716A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4385CE0F24F48D3000716A63 /* Assets.xcassets */; };
 		4385CE1324F48D3000716A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4385CE1124F48D3000716A63 /* LaunchScreen.storyboard */; };
+		4385CE1D24F48DB100716A63 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CE1C24F48DB100716A63 /* Feed.swift */; };
+		4385CE1F24F48E0B00716A63 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CE1E24F48E0B00716A63 /* Question.swift */; };
+		4385CE2424F48ED300716A63 /* RESTful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CE2324F48ED300716A63 /* RESTful.swift */; };
+		4385CE2824F48F0900716A63 /* QuestionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CE2724F48F0900716A63 /* QuestionService.swift */; };
+		4385CE2A24F48FDE00716A63 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CE2924F48FDE00716A63 /* Constants.swift */; };
+		43CFBA7824F4D82A0055BB36 /* HGError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFBA7724F4D82A0055BB36 /* HGError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12A793C44584883E0FA89811 /* Pods_HeadlineGuesser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadlineGuesser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4375251A24F49A9D00BEEDBB /* QuestionResponseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionResponseVC.swift; sourceTree = "<group>"; };
 		4385CE0324F48D2D00716A63 /* HeadlineGuesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadlineGuesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4385CE0624F48D2D00716A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4385CE0824F48D2D00716A63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4385CE0A24F48D2D00716A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4385CE0A24F48D2D00716A63 /* QuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
 		4385CE0D24F48D2D00716A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4385CE0F24F48D3000716A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4385CE1224F48D3000716A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4385CE1424F48D3000716A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4385CE1C24F48DB100716A63 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		4385CE1E24F48E0B00716A63 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		4385CE2324F48ED300716A63 /* RESTful.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTful.swift; sourceTree = "<group>"; };
+		4385CE2724F48F0900716A63 /* QuestionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionService.swift; sourceTree = "<group>"; };
+		4385CE2924F48FDE00716A63 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		43CFBA7724F4D82A0055BB36 /* HGError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGError.swift; sourceTree = "<group>"; };
+		551EA625520717FBDBAE82F0 /* Pods-HeadlineGuesser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadlineGuesser.debug.xcconfig"; path = "Target Support Files/Pods-HeadlineGuesser/Pods-HeadlineGuesser.debug.xcconfig"; sourceTree = "<group>"; };
+		D129D1616B82852ED32FFE79 /* Pods-HeadlineGuesser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadlineGuesser.release.xcconfig"; path = "Target Support Files/Pods-HeadlineGuesser/Pods-HeadlineGuesser.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8187074C80C53BA771E2B8 /* Pods_HeadlineGuesser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D7720262ED130C0869B154C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12A793C44584883E0FA89811 /* Pods_HeadlineGuesser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4385CDFA24F48D2D00716A63 = {
 			isa = PBXGroup;
 			children = (
 				4385CE0524F48D2D00716A63 /* HeadlineGuesser */,
 				4385CE0424F48D2D00716A63 /* Products */,
+				66EAE483B6B0BB0C1751FCBF /* Pods */,
+				3D7720262ED130C0869B154C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,71 @@
 		4385CE0524F48D2D00716A63 /* HeadlineGuesser */ = {
 			isa = PBXGroup;
 			children = (
+				4385CE1A24F48D3D00716A63 /* Model */,
+				4385CE1B24F48D4500716A63 /* Controller */,
+				4385CE2224F48EA400716A63 /* Utils */,
+				43CFBA7724F4D82A0055BB36 /* HGError.swift */,
 				4385CE0624F48D2D00716A63 /* AppDelegate.swift */,
 				4385CE0824F48D2D00716A63 /* SceneDelegate.swift */,
-				4385CE0A24F48D2D00716A63 /* ViewController.swift */,
 				4385CE0C24F48D2D00716A63 /* Main.storyboard */,
 				4385CE0F24F48D3000716A63 /* Assets.xcassets */,
 				4385CE1124F48D3000716A63 /* LaunchScreen.storyboard */,
 				4385CE1424F48D3000716A63 /* Info.plist */,
 			);
 			path = HeadlineGuesser;
+			sourceTree = "<group>";
+		};
+		4385CE1A24F48D3D00716A63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4385CE1C24F48DB100716A63 /* Feed.swift */,
+				4385CE1E24F48E0B00716A63 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4385CE1B24F48D4500716A63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4385CE0A24F48D2D00716A63 /* QuestionVC.swift */,
+				4375251A24F49A9D00BEEDBB /* QuestionResponseVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4385CE2224F48EA400716A63 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4385CE2624F48EEB00716A63 /* Service */,
+				4385CE2524F48ED700716A63 /* Network */,
+				4385CE2924F48FDE00716A63 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4385CE2524F48ED700716A63 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4385CE2324F48ED300716A63 /* RESTful.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4385CE2624F48EEB00716A63 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4385CE2724F48F0900716A63 /* QuestionService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		66EAE483B6B0BB0C1751FCBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				551EA625520717FBDBAE82F0 /* Pods-HeadlineGuesser.debug.xcconfig */,
+				D129D1616B82852ED32FFE79 /* Pods-HeadlineGuesser.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4385CE1724F48D3000716A63 /* Build configuration list for PBXNativeTarget "HeadlineGuesser" */;
 			buildPhases = (
+				1D81BB1F50A667A22B05DE9F /* [CP] Check Pods Manifest.lock */,
 				4385CDFF24F48D2D00716A63 /* Sources */,
 				4385CE0024F48D2D00716A63 /* Frameworks */,
 				4385CE0124F48D2D00716A63 /* Resources */,
+				7BEF1A6537B29F94CD77EC21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +220,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D81BB1F50A667A22B05DE9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeadlineGuesser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BEF1A6537B29F94CD77EC21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeadlineGuesser/Pods-HeadlineGuesser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeadlineGuesser/Pods-HeadlineGuesser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeadlineGuesser/Pods-HeadlineGuesser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4385CDFF24F48D2D00716A63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4385CE0B24F48D2D00716A63 /* ViewController.swift in Sources */,
+				4385CE0B24F48D2D00716A63 /* QuestionVC.swift in Sources */,
+				4385CE1D24F48DB100716A63 /* Feed.swift in Sources */,
 				4385CE0724F48D2D00716A63 /* AppDelegate.swift in Sources */,
+				43CFBA7824F4D82A0055BB36 /* HGError.swift in Sources */,
+				4385CE2824F48F0900716A63 /* QuestionService.swift in Sources */,
+				4385CE2424F48ED300716A63 /* RESTful.swift in Sources */,
+				4385CE1F24F48E0B00716A63 /* Question.swift in Sources */,
+				4375251B24F49A9D00BEEDBB /* QuestionResponseVC.swift in Sources */,
 				4385CE0924F48D2D00716A63 /* SceneDelegate.swift in Sources */,
+				4385CE2A24F48FDE00716A63 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +418,7 @@
 		};
 		4385CE1824F48D3000716A63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551EA625520717FBDBAE82F0 /* Pods-HeadlineGuesser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +431,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.dovgopol.HeadlineGuesser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4385CE1924F48D3000716A63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D129D1616B82852ED32FFE79 /* Pods-HeadlineGuesser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.dovgopol.HeadlineGuesser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
